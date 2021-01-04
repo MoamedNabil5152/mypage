@@ -1,0 +1,68 @@
+body {
+    width: 1200px;
+    height: 500px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    z-index: 0;
+  }
+  
+  body::after {
+    background: url('wad2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    content: "";
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;   
+  }
+
+  .head{
+      margin: auto ;
+      text-align: center;
+      text-shadow: 2px 2px #5a5151;
+      margin-bottom: 50px;
+
+  }
+
+  .head2,.head3,.head4{
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 30px;
+
+  }
+
+.btn-primary{
+    border-radius: 100px;
+    font-weight: bold;
+    height: 40px;
+    width: 120px;
+    margin-left: 500px;
+    margin-top: 110px;
+    margin-bottom:46px;
+    
+}
+.ourLink{
+    color: blanchedalmond;
+}
+footer {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: #333333;
+}
+
+.copyright {
+    position: absolute;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    line-height: 30px;
+    bottom:0;
+}
